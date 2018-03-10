@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var drawView: DrawView!
     @IBOutlet weak var predictLabel: UILabel!
     
-    let model = mnistCNN()
+    let model = conv_mnist()
     var inputImage: CGImage!
     
     override func viewDidLoad() {

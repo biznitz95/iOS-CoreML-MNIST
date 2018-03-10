@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA983972054266800F1EADF /* conv_mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6AA983962054266600F1EADF /* conv_mnist.mlmodel */; };
 		A8363E4B1EF337AE00204285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8363E4A1EF337AE00204285 /* AppDelegate.swift */; };
 		A8363E4D1EF337AE00204285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8363E4C1EF337AE00204285 /* ViewController.swift */; };
 		A8363E501EF337AE00204285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8363E4E1EF337AE00204285 /* Main.storyboard */; };
 		A8363E521EF337AE00204285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8363E511EF337AE00204285 /* Assets.xcassets */; };
 		A8363E551EF337AE00204285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8363E531EF337AE00204285 /* LaunchScreen.storyboard */; };
 		A8363E5F1EF33C9C00204285 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8363E5E1EF33C9C00204285 /* DrawView.swift */; };
-		A8364BAC1F0DDA1B00F338FF /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A8364BAB1F0DDA0E00F338FF /* mnistCNN.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA983962054266600F1EADF /* conv_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = conv_mnist.mlmodel; sourceTree = "<group>"; };
 		A8363E471EF337AE00204285 /* iOS-CoreML-MNIST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CoreML-MNIST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8363E4A1EF337AE00204285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8363E4C1EF337AE00204285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		A8363E541EF337AE00204285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8363E561EF337AE00204285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8363E5E1EF33C9C00204285 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
-		A8364BAB1F0DDA0E00F338FF /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistCNN.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		A8363E491EF337AE00204285 /* iOS-CoreML-MNIST */ = {
 			isa = PBXGroup;
 			children = (
-				A8364BAB1F0DDA0E00F338FF /* mnistCNN.mlmodel */,
+				6AA983962054266600F1EADF /* conv_mnist.mlmodel */,
 				A8363E4A1EF337AE00204285 /* AppDelegate.swift */,
 				A8363E4C1EF337AE00204285 /* ViewController.swift */,
 				A8363E4E1EF337AE00204285 /* Main.storyboard */,
@@ -142,9 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8364BAC1F0DDA1B00F338FF /* mnistCNN.mlmodel in Sources */,
 				A8363E4D1EF337AE00204285 /* ViewController.swift in Sources */,
 				A8363E5F1EF33C9C00204285 /* DrawView.swift in Sources */,
+				6AA983972054266800F1EADF /* conv_mnist.mlmodel in Sources */,
 				A8363E4B1EF337AE00204285 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
